@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f4f4f4;
+    flex-direction: column;
+    gap: 10vh;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-container {
+    position: absolute;
+    top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 5vh 10vw;
+    background-color: #333;
+    color: white;
+    font-family: 'Arial';
+    font-size: 1.5rem;
+    border-radius: 10px;
+    max-width: 80vw;
+    word-wrap: break-word; /* Ensures long words break and wrap to the next line */
+    overflow-wrap: break-word; /* Ensures long words break and wrap to the next line */
+    flex-wrap: wrap; /* Allows the content to wrap within the flex container */
+    text-align: center; /* Centers the text within the container */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    background-color: #0059ff;
+    color: white;
+    font-family: 'Arial';
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    position: absolute;
+    top: 10vh;
+}
+
+.button:hover {
+    background-color: #0044cc;
+}
